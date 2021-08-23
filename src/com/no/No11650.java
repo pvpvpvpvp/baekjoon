@@ -1,6 +1,6 @@
 package com.no;
 
-import java.io.BufferedInputStream;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class No11650 {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
+	
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));       
     	int CountA = Integer.parseInt(br.readLine());
 		int[][] a= new int[CountA][2];

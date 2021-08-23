@@ -6,10 +6,10 @@ public class No10872 {
 	static int as = 1;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int CountA = sc.nextInt();
 		System.out.println(factorial(CountA));
+		sc.close();
 	}
 
 	private static int factorial(int a) {
@@ -22,5 +22,7 @@ public class No10872 {
 			a--;
 			return factorial(a);
 		}
+	
 	}
+	
 }

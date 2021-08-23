@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class No1037 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		Scanner sc = new Scanner(System.in);
 	
 		int CountA= sc.nextInt();
@@ -25,6 +25,7 @@ public class No1037 {
 		{
 			int ss=s;
 		}
+		sc.close();
 	}
-
+	
 }

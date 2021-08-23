@@ -2,8 +2,12 @@ package com.no;
 
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner6;
-
+// 문제 두 지점에서 측정한 거리와 측정 지점의 좌표로 
+// 대상이 있을 수 있는 좌표의 개수 찾기
+// 좌표가 아니고 좌표의 개수만 필요하기 때문에
+// 원의 성질을 이용하여 찾아내야하고
+// 실수형의 부정확성(부동소숫점으로 인한) 때문에
+// sqrt 사용하지 않고 pow(??,2) 식으로 제곱식으로 계산.
 
 public class No1002 {
     public static void main(String[] args) {
