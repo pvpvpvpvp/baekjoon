@@ -6,7 +6,7 @@ public class week05_1 {
 	static boolean active;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String word ="EIO";
+		String word ="UUUUU";
 		System.out.println(re("",word));
 	}
 	
